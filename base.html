@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title></title>
+ <link rel="stylesheet" href="{% static 'app_1/css/bootstrap.min.css'%}">
+ <link rel="stylesheet" href="{% static 'app_1/css/color.css' %}">
+
+</head>
+<body>
+ <div class="container mt-3">
+      <h2 class="rk">
+     <marquee behavior="alternate" > Function based view modelform crud_project
+     </marquee>        </h2>
+
+  
+
+       {% block content %} {% endblock content %}
+  </div>
+
+
+ <script src="{% static 'app_1/js/jquery.js' %}"></script>
+ <script src="{% static 'app_1/js/popper.js' %}"></script>
+ <script src="{% static 'app_1/js/bootstrap.min.js' %}"></script>
+</body>
+</html>

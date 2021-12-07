@@ -1,0 +1,33 @@
+.rk{
+ background-color: aqua;
+ background-image: linear-gradient(pink,rgb(0, 255, 64),rgb(174, 214, 174));
+ border-radius: 20px;
+ height: 50px;
+ text-align: center;
+
+}
+body{
+ background-color: rgb(25, 233, 233);
+ 
+}
+.ubt{
+ 
+ 
+ background-color: rgb(158, 169, 172);
+ text-align: center;
+}
+.SHO{
+ background-color: red;
+ text-align: center;
+ height: 55px;
+ margin-top: 4px;
+}
+
+.SHO :active{
+  color: blue;
+}
+.SHO:hover{
+ background-image: linear-gradient(green,red,blue);
+}
+
+ 
