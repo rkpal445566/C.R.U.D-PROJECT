@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:8000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ 
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title></title>
+ <link rel="stylesheet" href="./CRUD_PROJECT_files/bootstrap.min.css">
+ <link rel="stylesheet" href="./CRUD_PROJECT_files/color.css">
+
+</head>
+<body>
+ <div class="container mt-3">
+  <h2 class="rk">
+  function based view modelform crud_project</h2>
+
+  
+
+    
+<div class="row">
+  <div class="col-sm-4">
+    <h3 class="text-center alert alert-info">Add form</h3>
+   <form action="http://127.0.0.1:8000/" method="POST" novalidate="">
+      <input type="hidden" name="csrfmiddlewaretoken" value="9xKUlmG67UTEqs0BhKVQHE3SkDxRzxCNRmjApmhcBw7uHBcOQQIhDmngB9U7qczn">
+      <p><label for="id_name">Name:</label> <input type="text" name="name" class="form-control" maxlength="70" required="" id="id_name"></p>
+<p><label for="id_email">Email:</label> <input type="email" name="email" class="form-control" maxlength="70" required="" id="id_email"></p>
+<p><label for="id_password">Password:</label> <input type="password" name="password" class="form-control" maxlength="80" required="" id="id_password"></p>
+      <input type="submit" class="btn btn-success" value="submit">
+    </form>
+  </div>
+
+
+ <div class="col-sm-8">
+  <h2 class="SHO">Show student informaton</h2>
+   
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">id</th>
+          <th scope="col">name</th>
+          <th scope="col">email</th>
+          <th scope="col">password</th>
+          <th scope="col">action</th>
+        </tr>
+      </thead>
+      <tbody>
+       
+         <tr>
+          
+            <th scope="row">27</th>
+            <td>rk</td>
+            <td>rkpal4575@gmail.com</td>
+            <td>yuuygugi</td>
+         
+            <td>
+                <a href="http://127.0.0.1:8000/27/" class="btn btn-warning btn-sm">Edit</a>          
+              <form action="http://127.0.0.1:8000/delete/27/" method="POST" class="d-inline">
+                <input type="hidden" name="csrfmiddlewaretoken" value="9xKUlmG67UTEqs0BhKVQHE3SkDxRzxCNRmjApmhcBw7uHBcOQQIhDmngB9U7qczn">
+                <input type="submit" class="btn btn-danger" value="delete">
+              </form>
+            </td> 
+         </tr>
+       
+         <tr>
+          
+            <th scope="row">28</th>
+            <td>amrendra shyingh</td>
+            <td>rkpal445567@gmail.com</td>
+            <td>rk</td>
+         
+            <td>
+                <a href="http://127.0.0.1:8000/28/" class="btn btn-warning btn-sm">Edit</a>          
+              <form action="http://127.0.0.1:8000/delete/28/" method="POST" class="d-inline">
+                <input type="hidden" name="csrfmiddlewaretoken" value="9xKUlmG67UTEqs0BhKVQHE3SkDxRzxCNRmjApmhcBw7uHBcOQQIhDmngB9U7qczn">
+                <input type="submit" class="btn btn-danger" value="delete">
+              </form>
+            </td> 
+         </tr>
+       
+         <tr>
+          
+            <th scope="row">29</th>
+            <td>rahul</td>
+            <td>rkpal4575@gmail.com</td>
+            <td>7777</td>
+         
+            <td>
+                <a href="http://127.0.0.1:8000/29/" class="btn btn-warning btn-sm">Edit</a>          
+              <form action="http://127.0.0.1:8000/delete/29/" method="POST" class="d-inline">
+                <input type="hidden" name="csrfmiddlewaretoken" value="9xKUlmG67UTEqs0BhKVQHE3SkDxRzxCNRmjApmhcBw7uHBcOQQIhDmngB9U7qczn">
+                <input type="submit" class="btn btn-danger" value="delete">
+              </form>
+            </td> 
+         </tr>
+       
+         <tr>
+          
+            <th scope="row">31</th>
+            <td>rk</td>
+            <td>rkpal4575@gmail.com</td>
+            <td>65464</td>
+         
+            <td>
+                <a href="http://127.0.0.1:8000/31/" class="btn btn-warning btn-sm">Edit</a>          
+              <form action="http://127.0.0.1:8000/delete/31/" method="POST" class="d-inline">
+                <input type="hidden" name="csrfmiddlewaretoken" value="9xKUlmG67UTEqs0BhKVQHE3SkDxRzxCNRmjApmhcBw7uHBcOQQIhDmngB9U7qczn">
+                <input type="submit" class="btn btn-danger" value="delete">
+              </form>
+            </td> 
+         </tr>
+       
+     </tbody>  
+     </table>
+    
+  </div>
+</div>
+
+  </div>
+
+
+ <script src="./CRUD_PROJECT_files/jquery.js.download"></script>
+ <script src="./CRUD_PROJECT_files/popper.js.download"></script>
+ <script src="./CRUD_PROJECT_files/bootstrap.min.js.download"></script>
+
+</body></html>
